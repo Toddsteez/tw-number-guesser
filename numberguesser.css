@@ -1,0 +1,146 @@
+header {
+  background: #404041;
+  width: 100%;
+  height: 100px;
+  display: table;
+}
+
+.wrapper {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #E6E7E8;
+  font-size: 5.3vw;
+  font-weight: 300;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0
+}
+
+#number {
+  color: #ED458B;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+main {
+  width: 45%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.define-range {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.range-buttons {
+  float: left;
+  font-weight: 100;
+  font-size: 18px;
+  width: 46%;
+  height: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#min-range {
+  margin-right: 6%;
+}
+
+.main-game {
+  width: 100%;
+}
+
+#user-guess {
+  height: 50px;
+  width: 98%;
+  margin-top: 12px;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#guess-button {
+  margin-right: 10%;
+}
+
+.submit-buttons {
+  background: #D0D2D3;
+  color: #FFFFFF;
+  width: 44%;
+  float: left;
+  border-style: none;
+  border-radius: 40px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.game-results {
+  height: 500px;
+  width: 100%;
+  padding-top: 100px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  color: #929497;
+}
+
+#user-guess-value {
+  font-size: 150px;
+  color: #ED458B;
+  line-height: 0;
+}
+
+#reset-button {
+  margin-top: 1px;
+  width: 100%
+}
+
+#guess-button:hover,
+#clear-button:hover,
+#reset-button:hover {
+  background: #EB008B;
+}
+
+.enable-class {
+  background: #929497;
+}
+
+input {
+  border: solid 2px #D0D2D3;
+}
+
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .submit-buttons,
+  .range-buttons {
+      display: block;
+      float: none;
+      width: 100%
+  }
+}

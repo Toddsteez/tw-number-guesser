@@ -1,0 +1,36 @@
+<head>
+  <title>Number Guesser</title>
+  <link rel="stylesheet" href="numberguesser.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>
+      <span id="number">Number </span>Guesser
+    </h1>
+  </header>
+  <section class="wrapper">
+    <main>
+      <section class="define-range" aria-label="User input area">
+        <input type="text" class="range-buttons" id="min-range" placeholder="Enter minimum range" aria-label="input minimum range"/>
+        <input type="text" class="range-buttons" id="max-range" placeholder="Enter maximum range" aria-label="input maximum range"/>
+      </section>
+      <section class="main-game">
+        <input type="text" id="user-guess" placeholder="Enter your guess" aria-label="input guess" />
+        <button id="guess-button" class="submit-buttons">Guess</button>
+        <button id="clear-button" class="submit-buttons">Clear</button>
+      </section>
+      <section class="game-results" placeholder=""aria-label="game results">
+        <p id="last-guess-message"></p>
+        <p id="user-guess-value"></p>
+        <p id="game-response"></p>
+      </section>
+      <footer>
+        <button class="submit-buttons" id="reset-button" aria-label="reset game button">Reset</button>
+      </footer>
+    </main>
+  </section>
+  <script type="text/Javascript" src="numberguesser.js"></script>
+</body>
+</html>
